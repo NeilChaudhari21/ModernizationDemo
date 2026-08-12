@@ -1,0 +1,4 @@
+supplier_id,name,on_time_rate,defect_rate,avg_lead_days,contract_version
+SUP-1,North Dock Supply,0.96,0.01,5,1.2
+SUP-2,Metro Freight Parts,0.82,0.04,9,1.0
+SUP-3,Harbor Industrial,0.91,0.02,6,2.0

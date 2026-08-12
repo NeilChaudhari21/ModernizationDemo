@@ -1,0 +1,4 @@
+shipment_id,order_id,status,carrier,origin,destination,shipped_at,delivered_at
+SHP-1,ORD-1,delivered,Acme Freight,SEA,PDX,2026-01-05,2026-01-06
+SHP-2,ORD-2,in_transit,Contoso Logistics,SFO,LAX,2026-01-06,
+SHP-3,ORD-3,pending,Acme Freight,SEA,DEN,,

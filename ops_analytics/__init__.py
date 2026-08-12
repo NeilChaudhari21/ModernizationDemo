@@ -1,0 +1,4 @@
+__version__ = "0.9.4"
+
+DEFAULT_WAREHOUSE = "SEA-01"
+DEFAULT_CURRENCY = "USD"

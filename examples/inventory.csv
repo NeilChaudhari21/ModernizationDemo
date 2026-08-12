@@ -1,0 +1,4 @@
+sku,name,on_hand,unit_cost,location,reorder_point
+SKU-1001,Widget A,120,4.50,A1,40
+SKU-1002,Widget B,15,12.00,B2,25
+SKU-1003,Widget C,75,7.25,C3,30
