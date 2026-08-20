@@ -7,10 +7,7 @@ DEFAULT_CONFIG_PATH = os.path.join(os.getcwd(), "examples", "config.ini")
 
 
 def _new_parser():
-    try:
-        return configparser.SafeConfigParser()
-    except AttributeError:
-        return configparser.ConfigParser()
+    return configparser.ConfigParser()
 
 
 def load_config(path=DEFAULT_CONFIG_PATH):
