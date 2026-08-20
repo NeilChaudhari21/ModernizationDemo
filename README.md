@@ -4,13 +4,13 @@ Legacy Ops Analytics is a fictional internal warehouse and logistics analytics
 platform. It models inventory movements, supplier performance, shipment
 tracking, order pricing, simple forecasting, CSV/JSON reports, and batch jobs.
 
-This repository is intentionally written as a larger legacy-style Python 3.10
-codebase. It still runs on Python 3.10, but it contains realistic migration and
+This repository is intentionally written as a larger legacy-style Python 3.14
+codebase. It still runs on Python 3.14, but it contains realistic migration and
 modernization issues that would need assessment before moving to Python 3.14.
 
 ## Requirements
 
-- Python 3.10
+- Python 3.14
 - pytest
 - packaging
 - python-dateutil
@@ -51,7 +51,7 @@ Run the test suite:
 python -m pytest
 ```
 
-The tox configuration is pinned to Python 3.10:
+The tox configuration includes Python 3.14:
 
 ```bash
 tox
