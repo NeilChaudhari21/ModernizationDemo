@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name="legacy-ops-analytics",
@@ -13,5 +13,5 @@ setup(
         "ops_analytics.jobs",
         "ops_analytics.utils",
     ],
-    python_requires=">=3.10",
+    python_requires=">3.10",
 )
